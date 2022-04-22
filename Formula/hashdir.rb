@@ -2,7 +2,7 @@ class Hashdir < Formula
   desc "Command-line utility to checksum directories and files"
   homepage "https://ultimateanu.github.io/hashdir/"
   url "https://github.com/ultimateanu/hashdir/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "23ee82c595919158764f6b060772e338364b750fb7eac59c25c12e4a09dfcde9"
+  sha256 "e27b08437957a02ea55c62b4837005bd6abea9608a290d67a2b351a16f037a29"
   license "MIT"
 
   depends_on "dotnet"
