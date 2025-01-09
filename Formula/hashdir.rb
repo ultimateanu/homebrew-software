@@ -5,12 +5,12 @@ class Hashdir < Formula
   sha256 "b75a448cad1ff1fdd484b1de8ced1e26ff9eedf70cb24a64cce19db5978fe9b7"
   license "MIT"
 
-  depends_on "dotnet"
+  depends_on "dotnet@8"
 
   def install
-    system "dotnet", "publish",
+    system "#{Formula["dotnet@8"].opt_bin}/dotnet", "publish",
            "--configuration", "Release",
-           "--framework", "net#{Formula["dotnet"].version.major_minor}",
+           "--framework", "net#{Formula["dotnet@8"].version.major_minor}",
            "--output", "out",
            "src/App/App.fsproj"
 
@@ -18,7 +18,7 @@ class Hashdir < Formula
 
     (bin/"hashdir").write <<~EOS
       #!/bin/sh
-      exec "#{Formula["dotnet"].opt_bin}/dotnet" "#{libexec}/hashdir.dll" "$@"
+      exec "#{Formula["dotnet@8"].opt_bin}/dotnet" "#{libexec}/hashdir.dll" "$@"
     EOS
   end
 
