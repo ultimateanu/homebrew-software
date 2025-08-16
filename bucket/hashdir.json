@@ -1,16 +1,16 @@
 {
-  "version": "1.4.0",
-  "description": "A command-line utility to checksum directories and files.",
+  "version": "1.4.1",
+  "description": "A command-line utility to checksum directories and files",
   "homepage": "https://ultimateanu.github.io/hashdir",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ultimateanu/hashdir/releases/download/v1.4.0/hashdir_1.4.0_Windows_64bit.zip",
-      "hash": "1169fd5ecbb39d86e269089082d9275894cd1f43c978eb007c6d34d89c0f1d20"
+      "url": "https://github.com/ultimateanu/hashdir/releases/download/v1.4.1/hashdir_1.4.1_Windows_64bit.zip",
+      "hash": "f12a1c4dc6ebca8744c33c1ff81b7413b88fa932d2a0bbe74db1a0ce8717cb34"
     },
     "32bit": {
-      "url": "https://github.com/ultimateanu/hashdir/releases/download/v1.4.0/hashdir_1.4.0_Windows_32bit.zip",
-      "hash": "125d683b58b7f6a98a07ec4821b69f03eaed3e084e3e98a36866e3fc2b025df5"
+      "url": "https://github.com/ultimateanu/hashdir/releases/download/v1.4.1/hashdir_1.4.1_Windows_32bit.zip",
+      "hash": "33be9593b2bfff609a745e7cdcdb8597ab1bae09c64d3f72d842f584fd8dd51e"
     }
   },
   "bin": "hashdir.exe"
